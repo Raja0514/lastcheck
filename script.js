@@ -1,10 +1,10 @@
 
-const para=document.querySelector('.paragraph');
 
 
- function onClick(){
 
-    fetch("http://www.boredapi.com/api/activity")
+async  function onClick(){
+
+    await fetch("http://www.boredapi.com/api/activity")
 
     .then(response=>{
 
